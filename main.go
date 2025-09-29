@@ -16,18 +16,5 @@ func main() {
 	fmt.Println("3. Salir")
 	fmt.Print("Opción: ")
 	
-	var opcion int
-	fmt.Scanf("%d", &opcion)
-	
-	switch opcion {
-	case 1:
-		cli := interfaz.NuevaCLI()
-		cli.Ejecutar()
-	case 2:
-		ejecutarCasosPruebaSimples()
-	case 3:
-		fmt.Println("¡Hasta luego!")
-	default:
-		fmt.Println("Opción no válida")
-	}
+	// IMPLEMENTAR
 }
