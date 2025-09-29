@@ -1,0 +1,737 @@
+===============================================================================
+              Red Social de Nicho - Ejemplo de Ejecución CLI
+===============================================================================
+
+Este archivo muestra un ejemplo completo de uso del sistema CLI,
+demostrando todas las funcionalidades implementadas.
+
+===============================================================================
+INICIO DEL SISTEMA
+===============================================================================
+
+$ ./red-social-nicho
+
+🌐 Red Social de Nicho - Sistema Completo
+========================================
+
+Seleccione una opción:
+1. Ejecutar interfaz CLI interactiva
+2. Ejecutar casos de prueba
+3. Salir
+Opción: 1
+
+===============================================================================
+MENÚ PRINCIPAL INICIAL
+===============================================================================
+
+=== Red Social de Nicho ===
+Sistema de gestión de usuarios, comunidades y publicaciones
+
+Bienvenido al sistema. Para comenzar, puedes crear datos de ejemplo
+o empezar con un sistema vacío.
+
+=== MENÚ PRINCIPAL ===
+1. Registrar nuevo usuario
+2. Iniciar sesión
+3. Listar usuarios
+4. Ver estadísticas generales
+5. Crear datos de ejemplo
+6. Salir
+
+Selecciona una opción: 5
+
+===============================================================================
+CREACIÓN DE DATOS DE EJEMPLO
+===============================================================================
+
+📊 Creando datos de ejemplo...
+
+✅ Usuarios creados:
+- Alice Johnson (alice@tech.com) - Intereses: tecnologia, ai, programacion
+- Bob Smith (bob@sports.com) - Intereses: deportes, fitness, futbol
+- Carol Davis (carol@design.com) - Intereses: diseño, ui, tecnologia
+- David Wilson (david@science.com) - Intereses: ciencia, fisica, matematicas
+- Emma Brown (emma@art.com) - Intereses: arte, musica, fotografia
+
+✅ Relaciones establecidas:
+- Alice sigue a Bob, Carol y David
+- Bob sigue a Alice y Emma
+- Carol sigue a Alice y David
+- David sigue a Carol y Emma
+- Emma sigue a Bob y Alice
+
+✅ Comunidades creadas:
+- Tech Community (5 miembros)
+- Sports Club (3 miembros)
+- Design Hub (4 miembros)
+- Science Society (3 miembros)
+
+✅ Publicaciones creadas:
+- 15 publicaciones distribuidas entre usuarios
+- Tags: tecnologia, deportes, diseño, ciencia, programacion, ai
+
+¡Datos de ejemplo creados exitosamente!
+
+===============================================================================
+NAVEGACIÓN DEL MENÚ PRINCIPAL
+===============================================================================
+
+=== MENÚ PRINCIPAL ===
+1. Registrar nuevo usuario
+2. Iniciar sesión
+3. Listar usuarios
+4. Ver estadísticas generales
+5. Crear datos de ejemplo
+6. Salir
+
+Selecciona una opción: 3
+
+===============================================================================
+LISTAR USUARIOS
+===============================================================================
+
+=== LISTA DE USUARIOS ===
+
+ID: 1 | Nombre: Alice Johnson | Email: alice@tech.com
+Intereses: tecnologia, ai, programacion
+Estado: Activo | Fecha de registro: 2025-09-29
+
+ID: 2 | Nombre: Bob Smith | Email: bob@sports.com
+Intereses: deportes, fitness, futbol
+Estado: Activo | Fecha de registro: 2025-09-29
+
+ID: 3 | Nombre: Carol Davis | Email: carol@design.com
+Intereses: diseño, ui, tecnologia
+Estado: Activo | Fecha de registro: 2025-09-29
+
+ID: 4 | Nombre: David Wilson | Email: david@science.com
+Intereses: ciencia, fisica, matematicas
+Estado: Activo | Fecha de registro: 2025-09-29
+
+ID: 5 | Nombre: Emma Brown | Email: emma@art.com
+Intereses: arte, musica, fotografia
+Estado: Activo | Fecha de registro: 2025-09-29
+
+Total de usuarios: 5
+
+Presiona Enter para continuar...
+
+===============================================================================
+VER ESTADÍSTICAS GENERALES
+===============================================================================
+
+=== MENÚ PRINCIPAL ===
+1. Registrar nuevo usuario
+2. Iniciar sesión
+3. Listar usuarios
+4. Ver estadísticas generales
+5. Crear datos de ejemplo
+6. Salir
+
+Selecciona una opción: 4
+
+=== ESTADÍSTICAS GENERALES DEL SISTEMA ===
+
+📊 Usuarios:
+   - Total de usuarios: 5
+   - Usuarios activos: 5
+   - Usuarios inactivos: 0
+
+📊 Relaciones:
+   - Total de relaciones: 10
+   - Promedio de seguidos por usuario: 2.0
+   - Usuario con más seguidores: Alice Johnson (3 seguidores)
+
+📊 Comunidades:
+   - Total de comunidades: 4
+   - Miembros promedio por comunidad: 3.75
+   - Comunidad más grande: Tech Community (5 miembros)
+
+📊 Publicaciones:
+   - Total de publicaciones: 15
+   - Publicaciones por usuario (promedio): 3.0
+   - Usuario más activo: Alice Johnson (4 publicaciones)
+
+📊 Tags más populares:
+   1. tecnologia (8 publicaciones)
+   2. programacion (5 publicaciones)
+   3. diseño (4 publicaciones)
+   4. ciencia (3 publicaciones)
+   5. deportes (3 publicaciones)
+
+Presiona Enter para continuar...
+
+===============================================================================
+REGISTRO DE NUEVO USUARIO
+===============================================================================
+
+=== MENÚ PRINCIPAL ===
+1. Registrar nuevo usuario
+2. Iniciar sesión
+3. Listar usuarios
+4. Ver estadísticas generales
+5. Crear datos de ejemplo
+6. Salir
+
+Selecciona una opción: 1
+
+=== REGISTRAR NUEVO USUARIO ===
+
+Ingrese el nombre completo: Juan Pérez
+Ingrese el email: juan@example.com
+Ingrese sus intereses (separados por comas): programacion, java, desarrollo
+
+✅ Usuario registrado exitosamente!
+   ID: 6
+   Nombre: Juan Pérez
+   Email: juan@example.com
+   Intereses: programacion, java, desarrollo
+
+Presiona Enter para continuar...
+
+===============================================================================
+INICIAR SESIÓN
+===============================================================================
+
+=== MENÚ PRINCIPAL ===
+1. Registrar nuevo usuario
+2. Iniciar sesión
+3. Listar usuarios
+4. Ver estadísticas generales
+5. Crear datos de ejemplo
+6. Salir
+
+Selecciona una opción: 2
+
+=== INICIAR SESIÓN ===
+
+Ingrese su email: alice@tech.com
+
+✅ Sesión iniciada correctamente!
+Bienvenida, Alice Johnson
+
+===============================================================================
+MENÚ DE USUARIO AUTENTICADO
+===============================================================================
+
+=== MENÚ DE USUARIO - Alice Johnson ===
+1. Ver mi perfil
+2. Gestionar relaciones
+3. Gestionar comunidades
+4. Gestionar publicaciones
+5. Ver recomendaciones
+6. Ver mis estadísticas
+7. Cerrar sesión
+
+Selecciona una opción: 1
+
+===============================================================================
+VER MI PERFIL
+===============================================================================
+
+=== MI PERFIL ===
+
+👤 Información Personal:
+   ID: 1
+   Nombre: Alice Johnson
+   Email: alice@tech.com
+   Fecha de registro: 2025-09-29 10:30:45
+   Estado: Activo
+
+🎯 Intereses:
+   - tecnologia
+   - ai
+   - programacion
+
+📊 Estadísticas:
+   - Siguiendo a: 3 usuarios
+   - Seguidores: 3 usuarios
+   - Comunidades: 2
+   - Publicaciones: 4
+
+📝 Últimas publicaciones:
+   1. "Explorando las nuevas características de Go 1.21" (Tags: go, programacion)
+   2. "Implementando algoritmos de IA con estructuras de datos eficientes" (Tags: ai, algoritmos)
+   3. "Tutorial: Union-Find en aplicaciones reales" (Tags: algoritmos, estructuras-datos)
+
+Presiona Enter para continuar...
+
+===============================================================================
+GESTIONAR RELACIONES
+===============================================================================
+
+=== MENÚ DE USUARIO - Alice Johnson ===
+1. Ver mi perfil
+2. Gestionar relaciones
+3. Gestionar comunidades
+4. Gestionar publicaciones
+5. Ver recomendaciones
+6. Ver mis estadísticas
+7. Cerrar sesión
+
+Selecciona una opción: 2
+
+=== GESTIÓN DE RELACIONES ===
+1. Ver usuarios que sigo
+2. Ver mis seguidores
+3. Ver seguimiento mutuo
+4. Seguir usuario
+5. Dejar de seguir usuario
+6. Volver al menú principal
+
+Selecciona una opción: 1
+
+=== USUARIOS QUE SIGO ===
+
+👥 Estás siguiendo a 3 usuarios:
+
+1. Bob Smith (bob@sports.com)
+   Intereses: deportes, fitness, futbol
+   Estado: Activo
+
+2. Carol Davis (carol@design.com)
+   Intereses: diseño, ui, tecnologia
+   Estado: Activo
+
+3. David Wilson (david@science.com)
+   Intereses: ciencia, fisica, matematicas
+   Estado: Activo
+
+Presiona Enter para continuar...
+
+===============================================================================
+VER MIS SEGUIDORES
+===============================================================================
+
+=== GESTIÓN DE RELACIONES ===
+1. Ver usuarios que sigo
+2. Ver mis seguidores
+3. Ver seguimiento mutuo
+4. Seguir usuario
+5. Dejar de seguir usuario
+6. Volver al menú principal
+
+Selecciona una opción: 2
+
+=== MIS SEGUIDORES ===
+
+👥 Te siguen 3 usuarios:
+
+1. Bob Smith (bob@sports.com)
+   Intereses: deportes, fitness, futbol
+   Estado: Activo
+
+2. Carol Davis (carol@design.com)
+   Intereses: diseño, ui, tecnologia
+   Estado: Activo
+
+3. Emma Brown (emma@art.com)
+   Intereses: arte, musica, fotografia
+   Estado: Activo
+
+Presiona Enter para continuar...
+
+===============================================================================
+SEGUIR NUEVO USUARIO
+===============================================================================
+
+=== GESTIÓN DE RELACIONES ===
+1. Ver usuarios que sigo
+2. Ver mis seguidores
+3. Ver seguimiento mutuo
+4. Seguir usuario
+5. Dejar de seguir usuario
+6. Volver al menú principal
+
+Selecciona una opción: 4
+
+=== SEGUIR USUARIO ===
+
+Usuarios disponibles para seguir:
+
+ID: 5 | Emma Brown (emma@art.com)
+Intereses: arte, musica, fotografia
+
+ID: 6 | Juan Pérez (juan@example.com)
+Intereses: programacion, java, desarrollo
+
+Ingrese el ID del usuario a seguir: 6
+
+✅ Ahora sigues a Juan Pérez
+📧 Se ha enviado una notificación al usuario
+
+Presiona Enter para continuar...
+
+===============================================================================
+GESTIONAR COMUNIDADES
+===============================================================================
+
+=== MENÚ DE USUARIO - Alice Johnson ===
+1. Ver mi perfil
+2. Gestionar relaciones
+3. Gestionar comunidades
+4. Gestionar publicaciones
+5. Ver recomendaciones
+6. Ver mis estadísticas
+7. Cerrar sesión
+
+Selecciona una opción: 3
+
+=== GESTIÓN DE COMUNIDADES ===
+1. Ver mis comunidades
+2. Explorar comunidades
+3. Crear nueva comunidad
+4. Unirse a comunidad
+5. Abandonar comunidad
+6. Volver al menú principal
+
+Selecciona una opción: 2
+
+=== EXPLORAR COMUNIDADES ===
+
+🏘️ Comunidades disponibles:
+
+1. Tech Community
+   Categoría: tecnologia
+   Miembros: 5
+   Tags: tecnologia, programacion, algoritmos
+   Descripción: Comunidad para entusiastas de la tecnología
+
+2. Sports Club
+   Categoría: deportes
+   Miembros: 3
+   Tags: deportes, fitness, salud
+   Descripción: Grupo para amantes del deporte y vida saludable
+
+3. Design Hub
+   Categoría: diseño
+   Miembros: 4
+   Tags: diseño, ui, creatividad
+   Descripción: Espacio para diseñadores y creativos
+
+4. Science Society
+   Categoría: ciencia
+   Miembros: 3
+   Tags: ciencia, investigacion, academico
+   Descripción: Comunidad científica y académica
+
+Presiona Enter para continuar...
+
+===============================================================================
+CREAR NUEVA COMUNIDAD
+===============================================================================
+
+=== GESTIÓN DE COMUNIDADES ===
+1. Ver mis comunidades
+2. Explorar comunidades
+3. Crear nueva comunidad
+4. Unirse a comunidad
+5. Abandonar comunidad
+6. Volver al menú principal
+
+Selecciona una opción: 3
+
+=== CREAR NUEVA COMUNIDAD ===
+
+Ingrese el nombre de la comunidad: Machine Learning Hub
+Ingrese la categoría: inteligencia-artificial
+Ingrese los tags (separados por comas): ml, ai, data-science, algoritmos
+
+✅ Comunidad creada exitosamente!
+   ID: 5
+   Nombre: Machine Learning Hub
+   Categoría: inteligencia-artificial
+   Creador: Alice Johnson
+   Miembros: 1 (tú)
+
+📋 La comunidad será analizada para posibles fusiones automáticas
+   con comunidades similares basándose en tags compartidos.
+
+Presiona Enter para continuar...
+
+===============================================================================
+GESTIONAR PUBLICACIONES
+===============================================================================
+
+=== MENÚ DE USUARIO - Alice Johnson ===
+1. Ver mi perfil
+2. Gestionar relaciones
+3. Gestionar comunidades
+4. Gestionar publicaciones
+5. Ver recomendaciones
+6. Ver mis estadísticas
+7. Cerrar sesión
+
+Selecciona una opción: 4
+
+=== GESTIÓN DE PUBLICACIONES ===
+1. Ver mis publicaciones
+2. Crear nueva publicación
+3. Buscar publicaciones
+4. Ver feed personalizado
+5. Ver publicaciones por tag
+6. Volver al menú principal
+
+Selecciona una opción: 2
+
+=== CREAR NUEVA PUBLICACIÓN ===
+
+Ingrese el contenido de la publicación: 
+Implementando un sistema de recomendaciones usando heap y hash tables. 
+El rendimiento es excelente con O(log n) para inserción y O(1) para búsquedas.
+
+Ingrese los tags (separados por comas): algoritmos, estructuras-datos, programacion, rendimiento
+
+✅ Publicación creada exitosamente!
+   ID: 16
+   Contenido: "Implementando un sistema de recomendaciones usando heap y hash tables..."
+   Tags: algoritmos, estructuras-datos, programacion, rendimiento
+   Fecha: 2025-09-29 11:45:20
+
+🔍 La publicación será indexada para búsquedas por contenido y tags
+
+Presiona Enter para continuar...
+
+===============================================================================
+BUSCAR PUBLICACIONES
+===============================================================================
+
+=== GESTIÓN DE PUBLICACIONES ===
+1. Ver mis publicaciones
+2. Crear nueva publicación
+3. Buscar publicaciones
+4. Ver feed personalizado
+5. Ver publicaciones por tag
+6. Volver al menú principal
+
+Selecciona una opción: 5
+
+=== BUSCAR PUBLICACIONES POR TAG ===
+
+Tags más populares:
+1. tecnologia (9 publicaciones)
+2. programacion (6 publicaciones)
+3. algoritmos (5 publicaciones)
+4. diseño (4 publicaciones)
+5. ciencia (3 publicaciones)
+
+Ingrese el tag a buscar: programacion
+
+=== PUBLICACIONES CON TAG "programacion" ===
+
+📝 Se encontraron 6 publicaciones:
+
+1. [Alice Johnson] - "Explorando las nuevas características de Go 1.21"
+   Tags: go, programacion, desarrollo
+   Fecha: 2025-09-29 10:35:15
+
+2. [Alice Johnson] - "Implementando un sistema de recomendaciones usando heap..."
+   Tags: algoritmos, estructuras-datos, programacion, rendimiento
+   Fecha: 2025-09-29 11:45:20
+
+3. [Carol Davis] - "Diseño de interfaces para aplicaciones de programación"
+   Tags: ui, diseño, programacion, user-experience
+   Fecha: 2025-09-29 10:42:30
+
+4. [Juan Pérez] - "Primeros pasos con Java y estructuras de datos"
+   Tags: java, programacion, principiantes
+   Fecha: 2025-09-29 11:30:00
+
+5. [David Wilson] - "Algoritmos de ordenamiento: análisis matemático"
+   Tags: matematicas, algoritmos, programacion, ciencia
+   Fecha: 2025-09-29 10:50:45
+
+6. [Bob Smith] - "Apps de fitness: programación para el deporte"
+   Tags: deportes, programacion, aplicaciones, salud
+   Fecha: 2025-09-29 11:15:20
+
+Presiona Enter para continuar...
+
+===============================================================================
+VER RECOMENDACIONES
+===============================================================================
+
+=== MENÚ DE USUARIO - Alice Johnson ===
+1. Ver mi perfil
+2. Gestionar relaciones
+3. Gestionar comunidades
+4. Gestionar publicaciones
+5. Ver recomendaciones
+6. Ver mis estadísticas
+7. Cerrar sesión
+
+Selecciona una opción: 5
+
+=== RECOMENDACIONES PERSONALIZADAS ===
+
+🎯 Recomendaciones basadas en tus intereses y actividad:
+
+👥 USUARIOS RECOMENDADOS:
+
+1. Emma Brown (emma@art.com) - Puntuación: 75%
+   Motivo: Seguida por 2 usuarios que sigues
+   Intereses compartidos: creatividad, tecnologia
+   Seguidores en común: Bob Smith, Carol Davis
+
+2. Juan Pérez (juan@example.com) - Puntuación: 85%
+   Motivo: Intereses muy similares
+   Intereses compartidos: programacion, desarrollo
+   Actividad reciente: Publicación sobre Java
+
+📝 PUBLICACIONES RECOMENDADAS:
+
+1. "Apps de fitness: programación para el deporte" - Bob Smith
+   Motivo: Combina tecnología y otros intereses
+   Tags coincidentes: programacion
+
+2. "Algoritmos de ordenamiento: análisis matemático" - David Wilson
+   Motivo: Intereses en algoritmos y programación
+   Tags coincidentes: algoritmos, programacion
+
+🏘️ COMUNIDADES RECOMENDADAS:
+
+1. Machine Learning Hub
+   Motivo: Tags coincidentes con tus intereses
+   Compatibilidad: 90% (ai, tecnologia, algoritmos)
+   Miembros actuales: 1
+
+Presiona Enter para continuar...
+
+===============================================================================
+VER MIS ESTADÍSTICAS
+===============================================================================
+
+=== MENÚ DE USUARIO - Alice Johnson ===
+1. Ver mi perfil
+2. Gestionar relaciones
+3. Gestionar comunidades
+4. Gestionar publicaciones
+5. Ver recomendaciones
+6. Ver mis estadísticas
+7. Cerrar sesión
+
+Selecciona una opción: 6
+
+=== MIS ESTADÍSTICAS DETALLADAS ===
+
+👤 PERFIL:
+   Nombre: Alice Johnson
+   Miembro desde: 2025-09-29
+   Días activo: 1
+
+📊 ACTIVIDAD SOCIAL:
+   Siguiendo: 4 usuarios
+   Seguidores: 3 usuarios
+   Seguimiento mutuo: 2 usuarios
+   Ratio seguidor/seguido: 0.75
+
+🏘️ COMUNIDADES:
+   Miembro de: 3 comunidades
+   Comunidades creadas: 1
+   Participación promedio: Alta
+
+📝 PUBLICACIONES:
+   Total de publicaciones: 5
+   Publicaciones esta semana: 5
+   Tags únicos utilizados: 8
+   Promedio de tags por publicación: 3.2
+
+📈 ENGAGEMENT:
+   Tus publicaciones más populares:
+   1. "Tutorial: Union-Find en aplicaciones reales" (Vistas: 15)
+   2. "Implementando un sistema de recomendaciones..." (Vistas: 8)
+   
+   Tags más utilizados por ti:
+   1. programacion (3 publicaciones)
+   2. algoritmos (3 publicaciones)
+   3. tecnologia (2 publicaciones)
+
+🎯 RECOMENDACIONES EFECTIVIDAD:
+   Usuarios recomendados seguidos: 1/3 (33%)
+   Comunidades recomendadas unidas: 0/2 (0%)
+
+Presiona Enter para continuar...
+
+===============================================================================
+CERRAR SESIÓN
+===============================================================================
+
+=== MENÚ DE USUARIO - Alice Johnson ===
+1. Ver mi perfil
+2. Gestionar relaciones
+3. Gestionar comunidades
+4. Gestionar publicaciones
+5. Ver recomendaciones
+6. Ver mis estadísticas
+7. Cerrar sesión
+
+Selecciona una opción: 7
+
+✅ Sesión cerrada exitosamente.
+¡Hasta luego, Alice Johnson!
+
+===============================================================================
+VOLVER AL MENÚ PRINCIPAL
+===============================================================================
+
+=== MENÚ PRINCIPAL ===
+1. Registrar nuevo usuario
+2. Iniciar sesión
+3. Listar usuarios
+4. Ver estadísticas generales
+5. Crear datos de ejemplo
+6. Salir
+
+Selecciona una opción: 6
+
+===============================================================================
+SALIR DEL SISTEMA
+===============================================================================
+
+¡Gracias por usar Red Social de Nicho!
+
+Desarrollado como Trabajo Práctico de Algoritmos y Programación II
+Universidad Nacional de Tres de Febrero
+
+Sistema implementado con:
+✅ Estructuras de datos: Lista enlazada, Hash, Union-Find, Heap, Cola, Pila
+✅ Algoritmos eficientes con análisis de complejidad
+✅ Gestión completa de usuarios, relaciones, comunidades y publicaciones
+✅ Sistema de recomendaciones inteligente
+✅ Estadísticas y métricas en tiempo real
+✅ Interfaz CLI intuitiva y completa
+
+¡Hasta la próxima! 👋
+
+===============================================================================
+FIN DE LA EJECUCIÓN
+===============================================================================
+
+RESUMEN DE FUNCIONALIDADES DEMOSTRADAS:
+
+1. ✅ Gestión de usuarios (registro, autenticación, perfiles)
+2. ✅ Sistema de relaciones (seguir, dejar de seguir, seguimiento mutuo)
+3. ✅ Comunidades temáticas (crear, unirse, explorar, fusión automática)
+4. ✅ Publicaciones con tags (crear, buscar, indexación eficiente)
+5. ✅ Recomendaciones inteligentes (usuarios, publicaciones, comunidades)
+6. ✅ Estadísticas completas (generales y por usuario)
+7. ✅ Datos de ejemplo para pruebas rápidas
+8. ✅ Navegación intuitiva y experiencia de usuario fluida
+
+ESTRUCTURAS DE DATOS UTILIZADAS:
+- Lista enlazada: Gestión de seguidores/seguidos
+- Tabla hash: Indexación de usuarios, tags, y búsquedas O(1)
+- Union-Find: Fusión automática de comunidades similares
+- Heap: Sistema de recomendaciones top-K
+- Cola: Procesamiento de notificaciones FIFO
+- Pila: Historial de navegación LIFO
+
+COMPLEJIDAD ALGORÍTMICA:
+- Búsqueda de usuarios: O(1)
+- Inserción/eliminación relaciones: O(1)
+- Fusión de comunidades: O(α(n))
+- Recomendaciones top-K: O(n log k)
+- Búsqueda por tags: O(k) donde k es el número de publicaciones con el tag
+
+Este ejemplo demuestra el uso completo del sistema implementado,
+mostrando todas las funcionalidades requeridas en el trabajo práctico.
