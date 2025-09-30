@@ -13,6 +13,8 @@
 
 ## Integrantes del Grupo
 
+La siguiente tabla es un ejemplo, deben completarla con los roles reales que asuman en el proyecto
+
 | Nombre | Email | Rol Principal | Responsabilidades |
 |--------|-------|---------------|-------------------|
 | [Integrante 1] | | Líder de Proyecto | Coordinación general, integración |
